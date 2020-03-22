@@ -1,0 +1,28 @@
+{
+  "name": "rabbitMQ-async-await-tutorial-examples",
+  "version": "1.0.0",
+  "description": "RabbitMQ Async/Await Tutorial Examples",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint **/*.js --ignore-pattern node_modules/ --color",
+    "01-receive": "node 01-hello-world/receive.js",
+    "01-send": "node 01-hello-world/send.js",
+    "02-new-task": "node 02-work-queues/new_task.js",
+    "02-worker": "node 02-work-queues/worker.js",
+    "03-receive": "node 03-pub-sub/receive_logs.js",
+    "03-emit": "node 03-pub-sub/emit_log.js",
+    "04-receive": "node 04-routing/receive_logs_direct.js",
+    "04-emit": "node 04-routing/emit_log_direct.js",
+    "05-receive": "node 05-topics/receive_logs_topic.js",
+    "05-emit": "node 05-topics/emit_log_topic.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
