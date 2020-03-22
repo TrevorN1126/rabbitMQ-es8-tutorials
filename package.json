@@ -14,7 +14,9 @@
     "04-receive": "node 04-routing/receive_logs_direct.js",
     "04-emit": "node 04-routing/emit_log_direct.js",
     "05-receive": "node 05-topics/receive_logs_topic.js",
-    "05-emit": "node 05-topics/emit_log_topic.js"
+    "05-emit": "node 05-topics/emit_log_topic.js",
+    "06-rpc_server": "node 06-rpc/rpc_server.js",
+    "06-rpc_client": "node 06-rpc/rpc_client.js"
   },
   "license": "MIT",
   "dependencies": {
